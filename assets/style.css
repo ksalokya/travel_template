@@ -4,7 +4,7 @@
 }
 
 .navbar .container .brand-img {
-  width: 130px;
+  width: 150px;
   height: 40px;
 }
 
@@ -268,4 +268,52 @@ input {
   .card-4 .card-body {
     padding: 50px 40px;
   }
+}
+
+
+.order-title{
+  margin: 2% 0 0 12%;
+}
+
+.oder-details{
+  margin: 7% 25% 0 25%;
+  text-align: center;
+
+  padding: 100px 10px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #DCDCDC;
+}
+
+.oder-details1{
+  margin: 7% 25% 0 25%;
+
+  padding: 10px 10px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #DCDCDC;
+}
+
+.place {
+  display: flex;
+}
+
+.place .s1{
+  padding: 0 30px;
+  flex: 3;
+}
+.place .s2{
+  flex: 1;
+}
+.place .s3{
+  flex: 1;
+}
+
+.place .arrow {
+  margin-top: 1%;
+}
+
+.time{
+  margin-top: 2%;
+  margin-left: 4%;
 }
