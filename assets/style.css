@@ -1,0 +1,271 @@
+/* Navbar */
+.navbar .container {
+  margin-right: 3%;
+}
+
+.navbar .container .brand-img {
+  width: 130px;
+  height: 40px;
+}
+
+.location {
+  padding: 2px 9px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  margin-left: 7%;
+  margin-top: 7px;
+}
+
+.location .location-div {
+  padding: 5px 7px;
+}
+
+.location .location-div p {
+  margin-bottom: 0;
+}
+
+.location .location-div .search-icon {
+  margin-left: 5px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 50%;
+  border-style: solid;
+  padding: 5px 5px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+
+.menu {
+  margin-left: 5%;
+  padding: 2px 2px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  border-width: medium;
+}
+
+.menu .three-bars {
+  padding: 0 2px;
+}
+
+.menu .user-icon {
+  padding: 0px 2px;
+}
+
+.hline {
+  margin: 3px 40px 0 40px;
+}
+
+/* Profile */
+.btcard1 {
+  margin: 20% 0 0 40%;
+}
+
+.btcard2 {
+  margin: 9% 0 0 0%;
+}
+
+.card-body {
+  padding: 0 0 7px 0;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-text p {
+  margin-bottom: 0;
+}
+
+.card-text .option-1 {
+  background: #03c6fc;
+  padding: 9px 9px;
+  display: flex;
+}
+
+.card-text .option-2 {
+  padding: 9px 9px;
+  display: flex;
+}
+
+.card-text .option-3 {
+  padding: 9px 9px;
+  display: flex;
+}
+
+.card-text .option-text {
+  flex: 1;
+}
+
+.card-text .arrow {
+  margin-top: 5px;
+}
+
+.details {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  border-width: medium;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row-space {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.col-2 {
+  width: -webkit-calc((100% - 30px) / 2);
+  width: -moz-calc((100% - 30px) / 2);
+  width: calc((100% - 30px) / 2);
+}
+
+@media (max-width: 767px) {
+  .col-2 {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper--w960 {
+  max-width: 960px;
+}
+
+.wrapper--w780 {
+  max-width: 780px;
+}
+
+.wrapper--w680 {
+  max-width: 680px;
+}
+
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input--style-4 {
+  line-height: 50px;
+  background: #fafafa;
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.input--style-4::-webkit-input-placeholder {
+  color: #666;
+}
+
+.input--style-4:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+.input--style-4::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+.input--style-4:-ms-input-placeholder {
+  color: #666;
+}
+
+.input--style-4:-ms-input-placeholder {
+  color: #666;
+}
+
+.label {
+  font-size: 16px;
+  color: #555;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.input-group-icon {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  font-size: 18px;
+  color: #999;
+  right: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.card {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-4 {
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-4 .card-body {
+  padding: 27px 65px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .card-4 .card-body {
+    padding: 50px 40px;
+  }
+}
