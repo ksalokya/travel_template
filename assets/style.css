@@ -365,10 +365,11 @@ input {
 .help{
   background-color: #99ccff;
   border-radius: 10px;
-  height:70px;
-  width:680px;
   display: inline-block;
   text-decoration: none;
+  padding: 7px 20px;
+
+  margin: 9px 0 0 130px;
 }
 
 .invoice-card{
@@ -395,4 +396,34 @@ padding-right: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.order-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.partial-order-content1{
+  border-left-style: dotted;
+  border-color: #DCDCDC;
+  border-width: medium;
+  margin-left: 6px;
+}
+
+.partial-order-content2{
+  margin-left: 6px;
+}
+
+.order-tick1{
+  position: absolute;
+  color: blue;
+}
+
+.order-tick2{
+  position: absolute;
+  color: blue;
+}
+
+.status-title{
+  margin-left: 20px;
 }
