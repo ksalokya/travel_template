@@ -58,6 +58,14 @@
 .hline {
   margin: 3px 40px 0 40px;
 }
+.hline2{
+  border:none;
+ border-top:1px dashed #000000;
+ color:#fff;
+ background-color:#fff;
+ height:1px;
+ width:100%;
+}
 
 /* Profile */
 .btcard1 {
@@ -294,6 +302,15 @@ input {
   border-color: #DCDCDC;
 }
 
+.oder-details2{
+  margin: 7% 25% 0 25%;
+
+  padding: 10px 10px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #DCDCDC;
+}
+
 .place {
   display: flex;
 }
@@ -309,6 +326,23 @@ input {
   flex: 1;
 }
 
+.place .s4{
+  padding: 0 30px;
+  flex: 1;
+}
+.place .s5{
+  flex: 1;
+  padding-right: 20px;
+}
+.place .s6{
+  flex: 1;
+  padding-left: 40px;
+}
+.place .s7{
+  flex: 1;
+
+}
+
 .place .arrow {
   margin-top: 1%;
 }
@@ -316,4 +350,49 @@ input {
 .time{
   margin-top: 2%;
   margin-left: 4%;
+}
+
+.previous {
+
+  color: black;
+  margin-left:250px;
+  text-decoration: none;
+}
+
+.help{
+  background-color: #99ccff;
+  margin-left:25%;
+  border-radius: 10px;
+  height:55px;
+  width:720px;
+  display: inline-block;
+ text-decoration: none;
+
+}
+
+#grad1 {
+  height: 60px;
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(153, 204, 255,0.5));
+  border-radius: 10px;
+}
+
+#par{
+padding-right: 50px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#payment{
+  margin-left: 9%;
 }
